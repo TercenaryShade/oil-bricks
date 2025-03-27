@@ -24,8 +24,7 @@ try:
     page_content = driver.find_element(By.TAG_NAME, "body").text
 
     # Define the path to the Excel file
-    excel_file = r"C:\Users\dmont\Downloads\VBAforWebInteraction.xlsm"
-
+    excel_file = r"C:\you.path.xlsm"
     # Load the existing workbook
     workbook = load_workbook(filename=excel_file, keep_vba=True)
     sheet = workbook["Sheet1"]  # Access 'Sheet1'
